@@ -1,0 +1,46 @@
+ .subsection{
+    display:flex;
+    justify-content: center;
+    flex-direction: column; 
+
+    /* align-items:center; */
+ }
+
+ .subsection p{
+     font-size:2em;
+ }
+
+.sign-up-field{
+    /* display:inline; */
+    /* font-size:4em; */
+
+}
+
+input[type='email']{
+    width:400px;
+}
+
+
+
+/* media queries */
+
+/* Mobile Styles */
+@media only screen and (max-width: 400px) {
+    input[type='email']{
+        width:65%;
+    }  
+  
+  }
+  
+  /* Tablet Styles */
+  @media only screen and (min-width: 401px) and (max-width: 960px) {
+    input[type='email']{
+        width:400px;
+    }  
+}
+  
+  /* Desktop Styles */
+  @media only screen and (min-width: 961px) {
+  
+
+  }

@@ -1,0 +1,75 @@
+.header{
+    
+    background-image: url(../img/coworking.jpg);
+  
+    /* this is the magic */
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+  
+    /* display:block; */
+    /* display: flex; */
+    /* justify-content: center; */
+    /* align-items: center; */
+  }
+
+  .header h1, .header button{
+    color: white;
+  }
+
+
+  .header h1{
+      font-size:4em;
+  }
+
+
+  .try-btn{
+      background-color:#0C618E;
+      text-transform: uppercase;
+      border:none;
+      border-radius: 4px;
+      padding: 15px 32px;
+      font-size:16px;
+  }
+  
+  .navbar{
+      background: salmon;
+  }
+
+
+
+  /* media queries */
+
+/* Mobile Styles */
+@media only screen and (max-width: 400px) {
+    .try-btn{
+        width:80%;
+        font-size:1em;
+        
+    }
+
+    .header h1{
+        font-size:2.5em;
+    }
+
+
+  
+  }
+  
+  /* Tablet Styles */
+  @media only screen and (min-width: 401px) and (max-width: 960px) {
+    .header h1{
+        font-size:3em;
+    }
+  
+  
+  
+  }
+  
+  /* Desktop Styles */
+  @media only screen and (min-width: 961px) {
+
+  
+  
+  
+  }
